@@ -1,0 +1,11 @@
+/* Greeting.css */
+.greeting-heading {
+    color: #7dcae2;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
