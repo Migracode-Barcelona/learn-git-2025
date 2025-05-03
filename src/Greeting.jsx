@@ -1,4 +1,4 @@
-import './Greeting.css';
+import './Greeting.Module.css';
 function Greeting({ name }) {
   return <h1 className="greeting-heading">Hello my name is, {name}!</h1>;
 }
