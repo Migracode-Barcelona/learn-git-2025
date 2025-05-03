@@ -1,11 +1,16 @@
+import DeleteButton from "./component/DeleteButton/DeleteButton";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div>
-      <Footer />
-    </div>
+    <>
+      <div>
+        <Footer />
+      </div>
+
+      <DeleteButton></DeleteButton>
+    </>
   );
 }
 
