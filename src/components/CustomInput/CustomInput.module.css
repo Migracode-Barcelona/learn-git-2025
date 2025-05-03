@@ -1,0 +1,19 @@
+.input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  background: linear-gradient(135deg, #aa91f6 0%, #5622f4 100%);
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.input::placeholder {
+  color: #666;
+}
+
+.input:focus {
+  background: linear-gradient(135deg, #f8b500 0%, #fceabb 100%);
+}
