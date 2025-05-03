@@ -1,17 +1,22 @@
 .siteHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1e293b;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1e293b;
   padding: 1rem 2rem;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 .siteTitle {
   font-size: 1.8rem;
   font-weight: bold;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .nav {
