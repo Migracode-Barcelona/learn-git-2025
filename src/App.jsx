@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 
@@ -6,6 +7,15 @@ function App() {
     <div>
       <Footer />
     </div>
+=======
+import DeleteButton from "./component/DeleteButton/DeleteButton";
+
+function App() {
+  return (
+    <>
+      <DeleteButton></DeleteButton>
+    </>
+>>>>>>> a14db75 (Add Delete Button Component)
   );
 }
 
